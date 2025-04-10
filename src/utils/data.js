@@ -34,11 +34,7 @@ export const ROUTES = Object.freeze([
     name: "Projects",
     path: "/projects",
   },
-  {
-    id: 5,
-    name: "Contact Us",
-    path: "/contact",
-  },
+ 
 ]);
 
 export const SERVICES = Object.freeze([

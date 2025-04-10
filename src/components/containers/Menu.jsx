@@ -4,14 +4,14 @@ import { ROUTES } from "@/utils/data";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Button, MotionButton } from "../ui/button";
+import { MotionButton } from "../ui/button";
 import { MobMenu } from "./MobMenu";
 import { motion } from "framer-motion";
 import { transition, variants } from "@/utils/framer_variants";
 
 export default function Menu() {
   const pathname = usePathname();
-  const MotionImage = motion(Image);
+  const MotionImage = motion.create(Image);
   return (
     <header
       className={cn(
