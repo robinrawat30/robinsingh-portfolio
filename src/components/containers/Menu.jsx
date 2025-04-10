@@ -11,7 +11,7 @@ import { transition, variants } from "@/utils/framer_variants";
 
 export default function Menu() {
   const pathname = usePathname();
-  const MotionImage = motion.create(Image);
+  const MotionImage = motion(Image);
   return (
     <header
       className={cn(

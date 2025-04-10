@@ -1,12 +1,12 @@
 import { Anek_Latin } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+
+
 import Menu from "@/components/containers/Menu";
 import Footer from "@/components/containers/Footer";
 import { Toaster } from "@/components/ui/toaster";
-import { Drawer } from "vaul";
+
 
 const anek = Anek_Latin({ subsets: ["latin"] });
 
